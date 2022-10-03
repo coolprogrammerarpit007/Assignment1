@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    padding: 1rem;
+    text-align: center;
+    background-color: steelblue;
+    color: #fff;
+}
+
+
+.section .container{
+    padding: 1rem;
+}
+
+.dish1,.dish2,.dish3{
+    border: 3px solid black;
+    border-radius: 5px;
+    /* margin: 10px; */
+    padding: 1rem;
+    width: 420px;
+    height: 420px;
+    background-color: grey;
+}
+
+.dish1 p,.dish2 p,.dish3 p{
+    line-height:2.3 ;
+}
+
+.item{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 35%;
+    margin-top: -18px;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+    left: 265px;
+    
+}
+
+
+.dish1{
+    float: right;
+}
+
+.dish2{
+    float: right;
+    margin-right: 25px;
+}
+
+.item1{
+    background-color:darkkhaki ;
+}
+.item2{
+    background-color: burlywood;
+    color: #fff;
+}
+.item3{
+    background-color: saddlebrown;
+    color:#fff;
+}
+
+/* Responsive Design for Mobile */
+
+@media only screen and (min-width:375px) and (max-width:767px){
+
+    .header h1{
+        font-size: 18px;
+    }
+
+    
+.dish1,.dish2,.dish3{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.dish1{
+    float:none;
+}
+.dish2{
+    margin-right: 0;
+}
+
+.dish3{
+    clear: both;
+}
+
+
+.item{
+    width: 35%;
+    margin-top: -18px;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+    left: 215px;
+    
+}
+
+}
+
+
+/*  Responsive Design Using Media Query */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    
+.dish1,.dish2,.dish3{
+    border: 3px solid black;
+    border-radius: 5px;
+    /* margin: 10px; */
+    padding: 1rem;
+    width: 320px;
+    height: 420px;
+    margin-bottom: 1rem;
+}
+
+.dish1 p,.dish2 p,.dish3 p{
+    line-height:1 ;
+}
+
+    
+.item{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 60%;
+    margin-top: -18px;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+    left: 130px;
+}
+
+.dish1{
+    float:left;
+}
+
+
+
+.dish3{
+    clear: both;
+    width: 90%;
+    height: 420px;
+}
+
+.dish3 p{
+    line-height: 2.3;
+}
+
+.item3{
+    width: 25%;
+    left: 518px;
+}
+    
+    
+}
